@@ -207,3 +207,7 @@ input[type="text"] {
   color: #ec0d97;
   font-weight: bolder;
 }
+.open-source {
+  color: white;
+  text-decoration: underline;
+}
