@@ -30,15 +30,7 @@ function formatTime(date) {
   let ampm = hours >= 12 ? "AM" : "PM";
 
   let dayIndex = now.getDay();
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   let day = days[dayIndex];
 
   return `${day}, ${hours}:${minutes} ${ampm}`;
