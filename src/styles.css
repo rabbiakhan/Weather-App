@@ -98,6 +98,17 @@ input[type="text"] {
   position: relative;
   top: -34px;
 }
+.units a {
+  text-decoration: none;
+  color: #878787;
+}
+.degree-image .active {
+  color: green;
+  cursor: default;
+}
+.degree-image .active:hover {
+  text-decoration: none;
+}
 .weather-summary {
   padding: 30px 2px;
   margin: 10px;
